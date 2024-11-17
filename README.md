@@ -7,7 +7,6 @@ Este projeto utiliza o algoritmo **k-Nearest Neighbors (kNN)** para explorar e a
 O principal objetivo é avaliar a eficácia do kNN como modelo preditivo em um cenário real, destacando limitações e melhorias possíveis.
 
 ---
-
 ## **Como Executar no Google Colab**
 
 ### **Passo a Passo**
@@ -22,31 +21,17 @@ O principal objetivo é avaliar a eficácia do kNN como modelo preditivo em um c
         influencers = pd.read_csv(file_path)
       ```
 3. **Instale Dependências**:
-    - Execute a célula que contém o código para instalar as bibliotecas necessárias no ambiente do Colab:
-      ```python
-      !pip install pandas numpy scikit-learn matplotlib seaborn
-      ```
+    - Execute a célula que contém o código para instalar as bibliotecas necessárias no ambiente do Colab
 
 4. **Execute o Notebook**:
-    - Siga as células sequencialmente para realizar as análises:
-      - **Pré-processamento dos Dados**: Inclui limpeza, normalização e transformações.
-      - **Treinamento do Modelo kNN**: Configuração do algoritmo, validação cruzada e otimização de hiperparâmetros.
-      - **Visualizações**: Geração de gráficos e análise de correlações.
-
-5. **Exportação do Relatório**:
-    - Use a funcionalidade do Google Colab para exportar o notebook como PDF:
-      - Vá para `Arquivo > Fazer Download > Fazer download como PDF`.
-
+    - Siga as células sequencialmente para realizar as análises
 ---
 
-## **Estrutura do Notebook**
+## **Estrutura dos Arquivos**
 
-- **Introdução**: Apresentação do problema e objetivos do projeto.
-- **Pré-processamento**: Limpeza dos dados e transformações, incluindo normalização e tratamento de valores ausentes.
-- **Análise Exploratória**: Gráficos e matrizes de correlação para explorar padrões nos dados.
-- **Implementação do Modelo**: Configuração do algoritmo kNN, otimização de hiperparâmetros e validação cruzada.
-- **Resultados e Discussão**: Avaliação das métricas e considerações sobre o desempenho do modelo.
-- **Exportação**: Instruções e código para salvar os resultados e o relatório em PDF.
+- O arquivo .ipynb é o notebook que deve ser aberto no Google Colab
+- O arquivo .pdf se refere ao Relatório do Projeto
+- O arquivo .csv são os dados utilizados no projeto
 
 ---
 
