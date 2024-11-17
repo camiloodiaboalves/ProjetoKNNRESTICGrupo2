@@ -1,7 +1,5 @@
-# ProjetoKNNRESTICGrupo2
+# Analise de influencers com KNN
 Projeto Referente à Unidade 9 da Trilha de Ciência de Dados do ResTIC36, Grupo 2.
-
-# **Relatório Técnico: Implementação do Algoritmo k-Nearest Neighbors (kNN) Aplicado ao Instagram**
 
 ## **Descrição do Projeto**
 Este projeto utiliza o algoritmo **k-Nearest Neighbors (kNN)** para explorar e analisar dados de influenciadores do Instagram, com foco em prever padrões de engajamento e alcance. O trabalho inclui desde o pré-processamento dos dados até a validação do modelo e a análise dos resultados, fornecendo insights sobre variáveis-chave como número de seguidores, média de curtidas e taxa de engajamento.
