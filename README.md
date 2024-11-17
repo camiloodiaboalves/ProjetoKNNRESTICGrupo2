@@ -17,9 +17,12 @@ O principal objetivo é avaliar a eficácia do kNN como modelo preditivo em um c
     - Abra o Google Colab e importe o notebook utilizando o link do repositório ou faça upload manual do arquivo `KNN-Influencers.ipynb`.
 
 2. **Carregue os Dados**:
-    - Baixe o arquivo `top_insta_influencers_data.csv` e mude o caminho do arquivo:
-    - ![image](https://github.com/user-attachments/assets/3cf08a99-ef1b-4cd5-8e0e-e216a475634f)
-
+    - Certifique-se de que o arquivo de dados está disponível no Google Drive ou faça o upload manual. Atualize os caminhos no notebook conforme necessário.
+    ```python
+        #Dataset
+        file_path = 'CAMINHO PARA O ARQUIVO'
+        influencers = pd.read_csv(file_path)
+      ```
 3. **Instale Dependências**:
     - Execute a célula que contém o código para instalar as bibliotecas necessárias no ambiente do Colab:
       ```python
